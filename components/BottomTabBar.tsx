@@ -7,9 +7,6 @@ import {
   View,
 } from 'react-native';
 import {memo} from 'react/cjs/react.production.min';
-import HomeScreen from './HomeScreen';
-import LabTests from './LabTests';
-import Medicine from './Medicine';
 
 export const tabBarOptions = [
   {

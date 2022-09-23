@@ -1,8 +1,8 @@
+import {HomeScreen} from '@aph/homescreen';
+import {LabTests} from '@aph/labtests';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import {Medicines} from 'medicine';
 import React from 'react';
-import HomeScreen from './HomeScreen';
-import LabTests from './LabTests';
-import Medicines from './Medicine';
 
 const Tab = createBottomTabNavigator();
 

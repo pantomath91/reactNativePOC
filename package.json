@@ -10,10 +10,14 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@aph/medicine": "./packages/Medicine",
+    "@aph/homescreen": "./packages/HomeScreen",
+    "@aph/labtests": "./packages/LabTests",
     "@react-navigation/bottom-tabs": "^6.3.3",
     "@react-navigation/native": "^6.0.12",
     "@react-navigation/native-stack": "^6.8.0",
     "@types/react-native": "^0.69.8",
+    "medicine": "./packages/Medicine",
     "react": "18.1.0",
     "react-native": "0.70.0",
     "react-native-reanimated": "^2.10.0",
